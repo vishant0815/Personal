@@ -1,0 +1,25 @@
+<odoo>
+    <!-- Main Menu: Library Management -->
+    <menuitem id="menu_library_management" name="Library Management" sequence="1"/>
+
+    <!-- Submenu: Books -->
+    <menuitem id="menu_library_books" name="Books" parent="menu_library_management" sequence="10" action="action_library_books"/>
+
+    <!-- Submenu: Members -->
+    <menuitem id="menu_library_members" name="Members" parent="menu_library_management" sequence="20" action="action_library_members"/>
+
+    <!-- Main Menu: Library -->
+    <menuitem id="menu_library_main" name="Library" sequence="2"/>
+
+    <!-- Submenu: Libraries -->
+    <menuitem id="menu_library_list" name="Libraries" parent="menu_library_main" sequence="10" action="action_library_list"/>
+
+    <!-- Main Menu: Configuration -->
+    <menuitem id="menu_library_configuration" name="Configuration" sequence="3"/>
+
+    <!-- Submenu: Book Tags -->
+    <menuitem id="menu_library_book_tags" name="Book Tags" parent="menu_library_configuration" sequence="10" action="action_library_book_tags"/>
+
+    <!-- Submenu: Book Categories -->
+    <menuitem id="menu_library_book_category" name="Book Categories" parent="menu_library_configuration" sequence="20" action="action_library_book_category"/>
+</odoo>

@@ -1,0 +1,6 @@
+<odoo>
+    <menuitem id="configuration_menu" name="Configuration" parent="library_management_menu"/>
+    
+    <menuitem id="book_tags_menu" name="Book Tags" parent="configuration_menu" action="action_library_book_tags"/>
+    <menuitem id="book_category_menu" name="Book Categories" parent="configuration_menu" action="action_library_book_category"/>
+</odoo>
